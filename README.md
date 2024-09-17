@@ -19,7 +19,7 @@ Cook strávil většinu své kariéry na University of Toronto, kde byl profesor
 ## Ocenění a Úspěchy
 Cook byl za svou práci oceněn mnoha prestižními oceněními. V roce 1982 obdržel cenu Gödelovu, která je udělována za vynikající příspěvek k teoretické informatice. Byl také zvolen členem Královské společnosti v roce 1994 a získal řadu dalších vyznamenání za svůj příspěvek k vědeckému výzkumu.
 
-### Současnost
+## Současnost
 Stephen Cook nadále přispívá k výzkumu v oblasti teoretické informatiky a složitosti výpočtů. Jeho práce i nadále ovlivňuje různé oblasti počítačové vědy a matematiky.
 
 Tento přehled pokrývá klíčové aspekty života a kariéry Stephena Cooka, včetně jeho nejvýznamnějších vědeckých přínosů.

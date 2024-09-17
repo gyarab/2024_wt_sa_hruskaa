@@ -13,10 +13,10 @@ Teorie Složitosti Výpočtů: Cook je nejvíce známý svou prací v oblasti te
 
 NP-úplnost: Cookovo teorie NP-úplnosti měla zásadní dopad na počítačovou vědu, protože přivedla k pochopení, že některé problémy jsou inherentně složité a nemohou být řešeny v rozumném čase. Tento objev vedl k dalšímu výzkumu v oblasti algoritmů, složitosti a kryptografie.
 
-### Kariéra 
+## Kariéra 
 Cook strávil většinu své kariéry na University of Toronto, kde byl profesorem počítačových věd. Byl také členem různých odborných komisí a přispěl k rozvoji oboru výpočetní složitosti.
 
-### Ocenění a Úspěchy
+## Ocenění a Úspěchy
 Cook byl za svou práci oceněn mnoha prestižními oceněními. V roce 1982 obdržel cenu Gödelovu, která je udělována za vynikající příspěvek k teoretické informatice. Byl také zvolen členem Královské společnosti v roce 1994 a získal řadu dalších vyznamenání za svůj příspěvek k vědeckému výzkumu.
 
 ### Současnost

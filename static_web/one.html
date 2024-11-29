@@ -12,8 +12,7 @@
     <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container d-flex justify-content-between">
             <a class="navbar-brand" href="#">
-                <img src="logo.png" alt="Logo" width="24" height="24" class="d-inline-block align-text-top">
-                European List
+            European List
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,8 +21,8 @@
             
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="./one.html">One</a>
-                    <a class="nav-link" href="./two.html">Two</a>
+                    <a class="nav-link active" aria-current="page" href="./one.html">English</a>
+                    <a class="nav-link" href="./two.html">Czech</a>
                 </div>
             </div>
 
@@ -33,18 +32,61 @@
 
     <div class="container">
 
-        <h1>Breaking news</h1>
+        <h1>Home</h1>
         <div class="row">
-            <div class="d-md-none d-lg-block d-sm-block col-12 col-sm-6" style="border: 1px solid red;">¨
-                <img src="https://placehold.co/200x200" alt="dummy img" class="w-100">
+            <div class="d-md-none d-lg-block d-sm-block col-12 col-sm-6">
+                <img id="obr01" src="new_commission.jpg" alt="image" class="w-100">
         
             </div>
             <div class="col-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente consequatur eaque cupiditate repellat architecto laboriosam sed, tenetur distinctio unde nostrum sunt alias officia ut. Illo dolorem tempora sequi. Quas, laboriosam.
+                <a href="clanek.html" 
+                style="text-decoration: none; color: rgb(0, 0, 0); background-color: #ffffff; border-radius: 5px; font-weight: bold; font-size: xx-large;">
+                        Parliament approves von der Leyen right-leaning Commission for December 1st.
+                </a>
+                    <p>
+                        STRASBOURG — European Union lawmakers approved Ursula von der Leyen’s team for her second term, after a months-long process that began with June’s European election ended following weeks of political infighting among the bloc’s left- and right-wing groups.
+
+                        “Finding ways to work with each other and overcoming fragmentation. This is what I and all 26 women and men with me will strive for every single day. We are ready to get to work immediately,” said European Commission President von der Leyen on Wednesday after the vote.
+
+                        In the end, it was the combined votes of right- and the left-leaning groups that allowed for the commissioners to pass untouched, the first time since 1999 that no country’s nominee for the Commission has been rejected (Source: Politico.eu).
+                    </p>
+                    <button onclick= akce(); class="btn btn-outline-primary btn-lg" href="https://european-union.europa.eu/index_en">
+                        European Union
+                        
+                    </button>
+
+                    <button onclick= akce2(); class= "btn btn-outline-primary btn-lg"> 
+                        Zmena okraje
+                    </button>
             </div>
+            
         </div>
             
-        <div class="row text-center" style="font-size: 100px;">
+        <div class="row mt-3">
+            <div class="col-sm-6">
+                <div class="card">
+                    <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Meet the commissioners: Class of 2024</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="card">
+                <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 2">
+                <div class="card-body">
+                  <h5 class="card-title">EU has high hopes for the ‘anti-Michel’</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row text-center" style="font-size: 50px;">
             <div class="col-12 col-sm-6 col-md-4">
                 <i class="bi bi-instagram"></i>
             </div>
@@ -57,37 +99,32 @@
                 <i class="bi bi-twitter-x"></i>
             </div>
         </div>
-    
-        <div class="row mt-3">
-            <div class="col-sm-6">
-                <div class="card">
-                    <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 1">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="card">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 2">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
     </div>
     
     <div style="height: 500px;"></div>
-    
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script>
+        function akce() {
+            let obr = document.getElementById('obr01')
+            console.log('na parek')
+            let src01 = "https://th.bing.com/th/id/OIP.U36EyBicg-4MHvfWbYXLSwHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7"
+            let src02 = "https://th.bing.com/th/id/OIP.LwJYIQn3n3hsTM-2Xyoi5wHaE8?w=296&h=197&c=7&r=0&o=5&pid=1.7"
+
+            if(obr.src === src01) {
+                obr.src = src02
+            } else {
+                obr.src = src01
+            }
+        }
+
+        function akce2() {
+            let obr = document.getElementById('obr01')
+            console.log('na parek')
+            obr.style.border = '10px solid red'
+            
+        }
+
+    </script>
   </body>
 </html>

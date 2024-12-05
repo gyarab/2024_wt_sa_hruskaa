@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,30 +8,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    
     <nav class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="#">
-            European List
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="one.html">
+                <img src="European_LIST.png" width="70" height="70" alt="Logo">
+                European List
             </a>
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="./one.html">English</a>
                     <a class="nav-link" href="./two.html">Czech</a>
                 </div>
             </div>
-
         </div>
-
     </nav>
 
-    <div class="container">
-
+    <div class="container mt-4 g-10">
         <h1>Home</h1>
         <div class="row">
             <div class="d-md-none d-lg-block d-sm-block col-12 col-sm-6">
@@ -59,72 +54,85 @@
                         Zmena okraje
                     </button>
             </div>
-            
         </div>
-            
+
+        <!-- Karty -->
         <div class="row mt-3">
-            <div class="col-sm-6">
-                <div class="card">
-                    <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 1">
+            <div class="col-sm-12 col-md-4">
+                <div class="card h-100">
+                    <img src="class_of_commisioners.jpg" class="card-img-top" alt="Karta 1">
                     <div class="card-body">
-                      <h5 class="card-title">Meet the commissioners: Class of 2024</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Meet the commissioners: Class of 2024</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="Meet_the_commisioners_news.html" class="btn btn-primary">Discover more</a>
                     </div>
-                  </div>
-            </div>
-
-            <div class="col-sm-6">
-              <div class="card">
-                <img src="https://placehold.co/300x200" class="card-img-top" alt="karta 2">
-                <div class="card-body">
-                  <h5 class="card-title">EU has high hopes for the ‘anti-Michel’</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-              </div>
             </div>
-          </div>
 
-          <div class="row text-center" style="font-size: 50px;">
-            <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card h-100">
+                    <img src="media_scale.jpg" class="card-img-top" alt="Karta 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Von der Leyen’s first Commission</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Discover more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card h-100">
+                    <img src="new_commission.jpg" class="card-img-top" alt="Karta 3">
+                    <div class="card-body">
+                        <h5 class="card-title">European policies in 2024</h5>
+                        <p class="card-text">Discover the new policies shaping the European Union.</p>
+                        <a href="#" class="btn btn-primary">Discover more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ikony sociálních sítí -->
+        <div class="row text-center mt-4" style="font-size: 50px;">
+            <div class="col-12 col-sm-4">
                 <i class="bi bi-instagram"></i>
             </div>
-
-            <div class="col-12 col-sm-6 col-md-4">
+            <div class="col-12 col-sm-4">
                 <i class="bi bi-facebook"></i>
             </div>
-                
-            <div class="col-12 col-sm-6 col-md-4">
-                <i class="bi bi-twitter-x"></i>
+            <div class="col-12 col-sm-4">
+                <i class="bi bi-twitter"></i>
             </div>
         </div>
     </div>
-    
-    <div style="height: 500px;"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
         function akce() {
-            let obr = document.getElementById('obr01')
-            console.log('na parek')
-            let src01 = "https://th.bing.com/th/id/OIP.U36EyBicg-4MHvfWbYXLSwHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7"
-            let src02 = "https://th.bing.com/th/id/OIP.LwJYIQn3n3hsTM-2Xyoi5wHaE8?w=296&h=197&c=7&r=0&o=5&pid=1.7"
-
-            if(obr.src === src01) {
-                obr.src = src02
+            let obr = document.getElementById('obr01');
+            console.log('Obrazek');
+            let src01 = "https://th.bing.com/th/id/OIP.U36EyBicg-4MHvfWbYXLSwHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7"; // EU flag
+            let src02 = "https://th.bing.com/th/id/OIP.LwJYIQn3n3hsTM-2Xyoi5wHaE8?w=296&h=197&c=7&r=0&o=5&pid=1.7"; // Another image
+            
+            
+            if (obr.src === src01) {
+                obr.src = src02;
             } else {
-                obr.src = src01
+                obr.src = src01;
+            }
+
+            if (obr.src === src01) {
+                obr.style.border = '10px solid red';
+            } else {
+                obr.style.border = 'none';
             }
         }
-
+    
         function akce2() {
-            let obr = document.getElementById('obr01')
-            console.log('na parek')
-            obr.style.border = '10px solid red'
-            
+            let obr = document.getElementById('obr01');
+            console.log('Cervena');
+            obr.style.border = '10px solid red';
         }
-
     </script>
-  </body>
+</body>
 </html>

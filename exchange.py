@@ -1,24 +1,17 @@
 import httpx
 
-print("online prevodnik men dle kurzu Ceske narodni banky")
+def get_exchange_rate():
+    url = "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/denni_kurz.txt"
+    r = httpx.get(url)
+    for line in r.text.split("\n"):
+        if "|EUR|" in line:
+            return float(line.split("|")[-1].replace(",", "."))
 
-url = "https://www.cnb.cz/cs/financni-trhy/devizovy-trh/kurzy-devizoveho-trhu/kurzy-devizoveho-trhu/denni_kurz.txt;jsessionid=189EF7A03CFCE3D9CF6F43DC0F7928A0?date=13.02.2025"
+def main():
+    rate = get_exchange_rate()
+    print(f"Aktuální kurz EUR/CZK: {rate}")
+    amount = float(input("Zadejte částku: "))
+    print(f"To je {amount / rate:.2f} EUR")
 
-r = httpx.get(url)
-
-lines = r.text.split("\n") 
-
-row = ""
-for line in lines:
-    if "|EUR|" in line:
-        row = line
-
-row_arr = row.split("|")
-
-kurz_str = row_arr[-1]
-
-kurz_str = kurz_str.replace("," , ".")
-
-castka = input("Zadej castku v CZK: ")
-result = int(castka) * 25
-print(f"To je v EUR: {result}")
+if __name__ == "__main__":
+    main()
